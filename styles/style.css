@@ -13,6 +13,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    color: #757575;
 }
 button {
     border: none;
@@ -196,3 +197,52 @@ main {
     padding: 100px 0;
 }
 
+
+/* Resume */
+.resume-wrap h2 {
+    text-align: center;
+}
+
+.resume-columns {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.resume-columns > div {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.resume-columns > div h3 {
+    font-size: 30px;
+}
+
+.resume-columns > div > div {
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 30px;
+}
+
+.resume-columns > div > div:last-child {
+    border-bottom: none;
+}
+
+.resume-columns > div > div h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-columns > div > div h5 {
+    font-size: 20px;
+}
+
+.resume-columns > div > div p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.resume-wrap a {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
