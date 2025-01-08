@@ -246,3 +246,48 @@ main {
     display: block;
     margin-top: 20px;
 }
+
+/* form */
+.footer {
+    padding: 100px 0;
+}
+
+.footer-content-area {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-content-area > div {flex: 50%;}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.f-content-left p {
+    font-size: 16px;
+}
+
+.contact-form input, .contact-form textarea {
+    background: #fff;
+    border: none;
+    padding: 15px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form .btn {
+    width: 150px;
+    color: #fff;
+}
